@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.PropertySource
 
 @Configuration
+@PropertySource("classpath:value.properties")
 class AwsConfig {
     @Value("\${aws.s3.access-key}")
     private val accessKey: String? = null

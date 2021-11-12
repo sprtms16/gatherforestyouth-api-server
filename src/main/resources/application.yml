@@ -16,7 +16,5 @@ logging:
 
 aws:
   s3:
-    access-key: AKIAQ2XRKPAIMJQCLGWF
-    secret-key: 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
     bucket: cdn.gatherforestyouth.gq
     url: https://cdn.gatherforestyouth.gq
