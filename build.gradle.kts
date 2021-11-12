@@ -30,6 +30,10 @@ dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	//AWS 라이브러리
+	implementation("com.amazonaws:aws-java-sdk-bom:1.12.53")
+	implementation("com.amazonaws:aws-java-sdk-s3:1.12.53")
 }
 
 tasks.withType<KotlinCompile> {

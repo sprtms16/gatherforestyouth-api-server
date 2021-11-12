@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://prod.caalih7pyw9m.ap-northeast-2.rds.amazonaws.com/gatherforestyouth
+    hikari:
+      password: D?c#NSK7oqZ8$h#DwIx5lt3$No4Ftgjqx0#cT@@p
+      username: forest
+  devtools:
+    add-properties: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  level:
+    web: debug
+
+aws:
+  s3:
+    access-key: AKIAQ2XRKPAIMJQCLGWF
+    secret-key: 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
+    bucket: cdn.gatherforestyouth.gq
+    url: https://cdn.gatherforestyouth.gq
