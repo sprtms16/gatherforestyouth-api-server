@@ -4,8 +4,6 @@ spring:
     hikari:
       password: D?c#NSK7oqZ8$h#DwIx5lt3$No4Ftgjqx0#cT@@p
       username: forest
-  devtools:
-    add-properties: true
   jpa:
     hibernate:
       ddl-auto: update

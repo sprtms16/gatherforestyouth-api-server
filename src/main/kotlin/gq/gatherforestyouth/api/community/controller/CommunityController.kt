@@ -10,7 +10,7 @@ import org.springframework.data.web.SortDefault
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("v1/community")
+@RequestMapping("api/v1/community")
 class CommunityController(
     val communityService: CommunityService,
 ) {
